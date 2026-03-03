@@ -16,13 +16,14 @@
 
  .navbar {
      display: flex;
+     flex-wrap: wrap;
      align-items: center;
      justify-content: space-between;
      background-color: black;
      position: fixed;
      padding: 10px;
      width: 80%; 
-
+    overflow: hidden;
 
      & .select {
          display: flex;
