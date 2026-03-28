@@ -1,3 +1,6 @@
+ html{
+    scroll-behavior: smooth;
+ }
  body {
      background-color: #050505;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,7 +18,7 @@
  }
 
  .navbar {
-     display: flex;
+     /* display: flex;
      flex-wrap: wrap;
      align-items: center;
      justify-content: space-between;
@@ -23,8 +26,20 @@
      position: fixed;
      padding: 10px;
      width: 80%; 
-    overflow: hidden;
-
+    overflow: hidden; */
+    
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  position: fixed;
+  padding: 10px;
+  width: 80%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin: 0 10% 0 10%;
      & .select {
          display: flex;
          list-style: none;
